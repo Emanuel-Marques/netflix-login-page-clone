@@ -57,6 +57,16 @@ section {
     color: #B4B4B5;
 }
 
+.main-content p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content p a:hover{
+    text-decoration: underline;
+    color: #B4B4B5;
+}
+
 .main-content h1 {
     font-size: 30px;
 }
@@ -94,6 +104,15 @@ section .main-content form .button {
 
 .singIn-btn:hover {
     background-color: #ba0b13;
+}
+
+.signUp-btn {
+    background-color: #333333;
+    color: #fff;
+}
+
+.signUp-btn:hover {
+    background-color: #2b2a2a;
 }
 
 .a-sign-up {
