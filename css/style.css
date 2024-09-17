@@ -126,7 +126,8 @@ input[type="text"], input[type="password"] {
     color: #fff;
 }
 
-section .main-content form .button {
+section .main-content form button {
+    border-radius: 7px;
     padding: 10px;
     border: none;
     font-size: 17px;
