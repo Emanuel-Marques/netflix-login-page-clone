@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+header img {
+    width: 180px;
+    margin-left: 150px;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    opacity: 0.9;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.main-content {
+    color: #fff;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-content p {
+    color: #B4B4B5;
+}
+
+.main-content h1 {
+    font-size: 30px;
+}
+
+.main-content form {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-content form input{
+    border-radius: 7px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 20px;
+    border: none;
+    background-color: #333;
+    opacity: 0.8;
+    color: #fff;
+}
+
+section .main-content form .button {
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.singIn-btn {
+    background-color: #E50815;
+    color: #fff;
+}
+
+.singIn-btn:hover {
+    background-color: #ba0b13;
+}
+
+.a-sign-up {
+    font-weight: bold; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.a-sign-up:hover{
+    text-decoration: underline;
+}
+
