@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #000;
+}
+
 main {
     font-family: 'Roboto', sans-serif;
     background-image: url('../images/background.png');
@@ -24,7 +28,36 @@ footer {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px;
+    padding: 70px 120px 80px 90px;
+    background-color: #000;
+    opacity: 0.9;
+    margin-top: 50px;
+}
+
+footer div {
+    color: #fff;
+    display: flex; 
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer div p{
+    color: #B4B4B5;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+footer div span{
+    color: #B4B4B5;
+}
+
+footer div p, span:hover{
+    cursor: pointer;
+}
+
+footer span:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .overlay {
@@ -42,13 +75,14 @@ section {
     align-items: center;
     background-color: #000;
     opacity: 0.84;
-    width: 480px;
+    width: 450px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .main-content {
     color: #fff;
-    padding: 40px 90px 200px 90px;
+    padding: 40px 70px 120px 70px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -70,6 +104,7 @@ section {
 
 .main-content h1 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .main-content form {
@@ -85,8 +120,8 @@ section {
 
 input[type="text"], input[type="password"] {
     padding: 20px;
-    border: none;
-    background-color: #333;
+    border: 1px solid #fff;
+    background-color: #151515;
     opacity: 0.8;
     color: #fff;
 }
