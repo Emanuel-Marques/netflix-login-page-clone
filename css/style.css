@@ -17,6 +17,7 @@ main {
 header img {
     width: 180px;
     margin-left: 150px;
+    position: relative;
 }
 
 footer {
@@ -32,7 +33,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 section {
@@ -40,14 +41,14 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    opacity: 0.9;
-    width: 500px;
+    opacity: 0.84;
+    width: 480px;
     margin: 0 auto;
 }
 
 .main-content {
     color: #fff;
-    padding: 40px 80px;
+    padding: 40px 90px 200px 90px;
     display: flex;
     flex-direction: column;
     gap: 20px;
