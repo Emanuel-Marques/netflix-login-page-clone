@@ -273,3 +273,19 @@ section .main-content form button {
         margin-bottom: 10px;
     }
 }
+
+@media screen and (max-width: 1279px) {
+
+    header img {
+        width: 180px;
+        margin-left: 20px;
+    }
+
+    .main-content p a{
+        font-size: 14px;
+    }
+
+    .main-content h1 {
+        margin-bottom: 10px;
+    }
+}
