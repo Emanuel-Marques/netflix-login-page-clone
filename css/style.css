@@ -214,3 +214,41 @@ section .main-content form button {
     background-color: #e0e0e0;
 }
 
+@media screen and (max-width: 590px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    section {
+        opacity: 1;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    main {
+        background-image: none;
+    }
+
+    footer {
+        border-top: 3px solid #B4B4B5;
+        justify-content: center;
+        padding: 40px 40px 20px 20px;
+    }
+
+    header img {
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .main-content p a{
+        font-size: 14px;
+    }
+
+    .main-content h1 {
+        margin-bottom: 10px;
+    }
+}
