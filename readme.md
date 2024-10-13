@@ -1,5 +1,7 @@
 # Netflix Login Page Clone
 Este é um clone da página de login da Netflix.
+<img width="1680" alt="netflix-clone-page" src="https://github.com/user-attachments/assets/2369ba80-7c9c-452c-b4ae-0213c2e4432e">
+
 
 ## Tecnologias utilizadas
 1. HTML
