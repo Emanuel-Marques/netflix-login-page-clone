@@ -23,7 +23,7 @@
 
 <h2 id="started">📌 Sobre</h2>
 
-Este é um projeto desenvolvido como parte de um desafio da comunidade CodeLab, cujo objetivo é criar uma página de blog funcional. O projeto inclui recursos como exibição de posts, barra de pesquisa e um botão para favoritar postagens.
+Este repositório contém um clone da página de login da Netflix, recriado com HTML, CSS para fins de estudo e prática de desenvolvimento frontend. O objetivo do projeto foi reproduzir fielmente o design e a responsividade da interface original, utilizando boas práticas de código e estilização.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
